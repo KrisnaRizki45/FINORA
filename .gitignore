@@ -1,0 +1,42 @@
+# .env
+.env
+.env.local
+.env.*.local
+
+# Dependencies
+node_modules/
+vendor/
+
+# Build output
+.next/
+out/
+build/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Laravel
+storage/*.key
+storage/logs/*
+!storage/logs/.gitkeep
+bootstrap/cache/*.php
+
+# Docker
+docker-compose.override.yml
+
+# Testing
+coverage/
+.phpunit.result.cache
+test-results/
+
+# Misc
+*.log
+npm-debug.log*
